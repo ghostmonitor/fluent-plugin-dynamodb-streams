@@ -214,7 +214,7 @@ module Fluent
       elsif v.s
         return v.s
       else
-        log.warn "dynamodb-streams: unknown attribute value."
+        log.warn "dynamodb-streams: unknown attribute value.Debug: #{v}"
       end
     end
 
